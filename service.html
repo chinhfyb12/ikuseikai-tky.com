@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.0/css/all.css"> 
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <title>プログラム｜就労者育成会 就労移行支援事業所</title>
+</head>
+<body>
+    <header>
+        <div class="container-header">
+            <p>就労者育成会 就労移行支援事業所</p>
+            <div class="title-header">
+                <img style="max-width: 100%;" src="./img/title.png">
+            </div>
+            <div class="contact-header">
+                <div class="contact1">お問合せはこちら</div>
+                <div style="margin: 15px;cursor: pointer;z-index: 2;" class="phone"><img style="width: 25px;" src="./img/tel.png"><span>03-3955-8145</span></div>
+                <div style="margin-right: 15px;" class="email"><img src="./img/email.png" alt=""></div s>
+                <a onclick="slideShow()" href="#1" class="menu"><i class="fas fa-bars"></i></a>
+                <a onclick="slideClose()" href="#2" class="close"><i class="fas fa-times"></i></a>
+            </div>
+        </div>
+    </header>
+    <div class="menuSlide">
+        <ul>
+            <li><a href="index.html"><span id="list-menu" class="active"> ホーム</span><i class="fas fa-angle-right"></i></a></li>
+            <li><a href="program.html"><span id="list-menu" class=""> プログラム</span><i class="fas fa-angle-right"></i></a></li>
+            <li><a href="service.html"><span id="list-menu" class=""> サービス内容</span><i class="fas fa-angle-right"></i></a></li>
+            <li class="li"><a href="access.html"><span id="list-menu" class=""> アクセス</span><i class="fas fa-angle-right"></i></a></li>
+        </ul>
+    </div>
+    <nav class="list-menu">
+        <ul>
+            <li><a href="index.html"><span id="list-menu" class=""> ホーム</span class=""></a></li>
+            <li><a href="program.html"><span id="list-menu" class=""> プログラム</span></a></li>
+            <li><a href="service.html"><span id="list-menu" class="active"> サービス内容</span></a></li>
+            <li class="li"><a href="access.html"><span id="list-menu" class=""> アクセス</span></a></li>
+        </ul>
+    </nav>
+    <div>
+        <img style="max-width: 100%;" src="./img/service/title.jpg" alt="">
+    </div>
+    <div class="box-service">
+        <img id="img-sv-1" src="./img/program/bg_pink_left.png" alt="">
+        <img id="img-sv-2" src="./img/program/bg_pink_right.png" alt="">
+        <div class="content-service">
+            <ul>
+                <li><a style="color: #5d5d5d;" href="#1"> ホーム </a></li>
+                <li id="link-sv"><a style="cursor: auto;" href="#1">サービス内容</a></li>
+            </ul>
+            <div class="title-sv">
+                <h1>当事業所の3つのこだわり</h1>
+            </div>
+        </div>
+        <div class="list-item-sv">
+            <div class="item">
+                <span>1</span>
+                <h1>教員免許資格保持者による<br>ビジネス実務講習</h1>
+                <img src="./img/service/img01.jpg" alt="">
+            </div>
+            <div class="item">
+                <span>2</span>
+                <h1>専門性の高い講師を<br>お招きしての個別プログラム</h1>
+                <img src="./img/service/img02.jpg" alt="">
+            </div>
+            <div class="item">
+                <span>3</span>
+                <h1>臨床心理士による<br>カウンセリング</h1>
+                <img src="./img/service/img03.jpg" alt="">
+            </div>
+        </div>
+        <div class="container-flow">
+            <img id="img-fl-1" src="./img/service/bg_flow01.png" alt="">
+            <img id="img-fl-2" src="./img/service/bg_flow02.png" alt="">
+            <div class="flow">
+                <h1>ご利用開始までの流れ</h1>
+                <ul>
+                    <li  class="flow-li">
+                        <span>STEP1</span>
+                        <div class="detail">
+                            <h2>お電話・メールでのお問合せ</h2>
+                            <p id="p1">
+                                <a style="color: black;" href="#1">お問合せはこちら</a>
+                                <a class="tel" href="#1"><img style="width: 25px;margin-right: 8px;" src="./img/tel.png" alt="">03-3955-8145</a>
+                                <a class="email" href="#1"><img style="margin-right: 8px;" src="./img/service/email.png" alt="">syu.iku.kai@gmail.com</a>
+                            </p>
+                        </div>                        
+                    </li>
+                    <li class="flow-li">
+                        <span>STEP2</span>
+                        <div class="detail">
+                            <h2>ご相談・見学</h2>
+                            <p>まずは、一度お越し下さい。そして、事業所の雰囲気、作業の様子、実際のプログラムを見学、体験して頂き、ご自身との相性をご確認ください。</p>
+                        </div>                        
+                    </li>
+                    <li class="flow-li">
+                        <span>STEP3</span>
+                        <div class="detail">
+                            <h2>体験利用・面談</h2>
+                            <p>2日～5日間程度、支援プログラムを体験して頂きます。体験をふまえ、支援計画や個人に合った職業訓練を、検討していきます。</p> 
+                        </div>                        
+                    </li>
+                    <li class="flow-li">
+                        <span>STEP4</span>
+                        <div class="detail">
+                            <h2>受給者証の申請</h2>
+                            <p>お住まいの区市町村の福祉課が発行する、障害福祉サービス受給者証を申請していただきます。</p>
+                        </div>                        
+                    </li>
+                    <li>
+                        <span>STEP5</span>
+                        <div class="detail">
+                            <h2>就労に向け利用開始</h2>
+                            <p>受給者証が支給されたら、正式な当事業所の利用者となります。以後、就労に向けてプログラムが開始されます。</p>
+                        </div>                        
+                    </li>
+                    <img id="discus" src="./img/service/discussion.png" alt="">
+                </ul>
+            </div>
+        </div>
+        <div class="container-day">
+            <h1>1日の流れ</h1>
+            <div class="box-day">
+                <div id="box-day1" class="day">
+                    <h1>午前</h1>
+                    <ul>
+                        <li>
+                            <span  class="sp-box-day1">10:00</span>
+                            <p>朝礼</p>
+                        </li>
+                        <li>
+                            <span class="sp-box-day1">10:15</span>
+                            <p>ミニプログラム</p>
+                        </li>
+                        <li>
+                            <span class="sp-box-day1">10:30</span>
+                            <p>軽作業</p>
+                        </li>
+                        <li>
+                            <span class="sp-box-day1">11:15</span>
+                            <p>清掃訓練</p>
+                        </li>
+                        <li>
+                            <span class="sp-box-day1">11:45</span>
+                            <p>お茶当番</p>
+                        </li>
+                        <li>
+                            <span>12:00</span>
+                            <p>昼休憩</p>
+                        </li>
+                    </ul>
+                    <img src="./img/service/women.png" alt="">
+                </div>
+                <div id="box-day2" class="day">
+                    <h1>午後</h1>
+                    <ul>
+                        <li>
+                            <span  class="sp-box-day1">12:45</span>
+                            <p>朝礼</p>
+                        </li>
+                        <li>
+                            <span class="sp-box-day1">13:40</span>
+                            <p>パソコン講師との個別レッスン</p>
+                        </li>
+                        <li>
+                            <span class="sp-box-day1">14:10</span>
+                            <p>軽作業</p>
+                        </li>
+                        <li>
+                            <span class="sp-box-day1">15:00</span>
+                            <p>休憩（⽔分補給）</p>
+                        </li>
+                        <li>
+                            <span class="sp-box-day1">15:15</span>
+                            <p>⽇報記⼊</p>
+                        </li>
+                        <li>
+                            <span>16:00</span>
+                            <p>⽚付け・帰宅準備</p>
+                        </li>
+                    </ul>
+                    <img src="./img/service/man.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="service-month">
+            <h1>1ヵ月の流れ</h1>
+            <p>＜例＞2019年11月</p>
+            <div><img style="max-width: 100%;" src="./img/service/calendar.jpg" alt=""></div>             
+        </div>
+    </div>
+    <footer>
+        <div class="footer-contact">
+            <p>お問合せはこちら</p>
+            <p id="p-f"><span>サービス提供時間</span> <span>10:00～16:00</span> </p>
+            <a href="#1"><img src="./img/tel.png" alt=""><span>03-3955-8145</span></a>
+            <img src="./img/email.png" alt="">
+        </div>
+        <div class="footer-content">
+            <a href="index.html"><img src="./img/title_f.png" alt=""></a>
+            <p><span> 〒173-0032 東京都板橋区大谷口上町21-6 </span><span class="f-p">【サービス提供時間】10:00～16:00</span><span> 【定休日】土・日曜日</span></p>
+        </div>
+        <ul>
+            <li><a href="index.html">ホーム</a></li>
+            <li><a href="program.html">プログラム</a></li>
+            <li><a href="service.html">サービス内容</a></li>
+            <li><a href="access.html">アクセス</a></li>
+        </ul>
+        <div class="copyright">
+            <p>Copyright © 2019 <span>就労者育成会 就労移行支援事業所</span>All Rights Reserved.</p>
+        </div>
+    </footer>
+    <div onclick="slideClose()" class="overlay"></div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

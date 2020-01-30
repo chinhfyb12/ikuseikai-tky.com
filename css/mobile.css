@@ -1,0 +1,210 @@
+@media(max-width: 640px)
+{
+    .greeting .greeting-detail > h3 {
+        font-size: 20px;
+    }
+    .greeting-detail img {
+        width: 115px;
+    }
+    .greeting .greeting-detail .gr-contact {
+        width: 100%;
+        padding: 15px 0;
+        height: auto;
+    }
+    .greeting .greeting-detail .gr-contact > span {
+        font-size: 24px;
+    }
+    .greeting .table .table-content {
+        width: 100%;
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+    .greeting .table {
+        flex-direction: column;
+        height: auto;
+    }
+    .greeting .table > h1 {
+        position: unset;
+        margin-bottom: 10px;
+    }
+    .greeting .gr-img1 {
+        top: 214px;
+        width: 65px;
+    }
+    .greeting .gr-img2 {
+        top: 20px;
+        width: 100px;
+    }
+    .greeting .table .table-img {
+        position: unset;
+    }
+    .greeting .table .table-content .content {
+        grid-template-columns: 20% 65%;
+        border-bottom: 1px solid #d8d8d8;
+        margin: 10px 15px;
+    }
+    .greeting .table .table-content .content .content-title {
+        padding: 14px;
+    }
+    .top-menu-table .top-menu-table-1 > img {
+        width: 25px;
+        top: -20px;
+    }
+    .top-menu {
+        height: auto;
+    }
+    .top-menu-table {
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+    .top-menu-table .top-menu-table-1 {
+        width: 100%;
+        height: 176px;
+        margin: 20px 0;
+        padding-top: 20px;
+    }
+    .top-menu-table .top-menu-table-1 > div {
+        margin-left: 10px;
+        padding: 15px;
+    }
+    .top-menu-table .top-menu-table-1 > img {
+        width: 25px;
+        top: -30px;
+    }
+    .top-menu-table .top-menu-table-1 > h1 {
+        width: 100%;
+        text-align: center;
+        left: 0px;
+        top: 5px;
+    }
+    .info {
+        height: auto;
+    }
+    .container-link {
+        height: auto;
+        margin-bottom: 50px;
+    }
+    .container-link .list-link .links {
+        grid-template-columns: 1fr;
+        margin: 20px 0 30px 0;
+    }
+    .container-link .list-link .links > a{        
+        margin: 6px 15px;
+    }
+    .footer-content img {
+        width: 150px;
+    }
+    footer .footer-content > p {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 12px;
+    }
+    footer .copyright > p {
+        font-size: 9px;
+    }
+    .box-program {
+        padding-bottom: 70px;
+    }
+    .content-program .title-pr > h1, .content-service .title-sv > h1 {
+        height: 85px;
+        font-size: 18px;
+        text-align: center;
+    }
+    .content-program .title-pr > p {
+        font-size: 15px;
+    }
+    .list-pr .list > p {
+        font-size: 14px;
+    }
+    .list-pr .list-item {
+        flex-wrap: wrap;
+    }
+    .list-pr .list-item .item {
+        width: 49%;
+    }
+    .consultation-pr > h2 {
+        width: 245px;
+    }
+    .map {
+        margin: auto;
+    }
+    .consultation-pr .consul-pr-img1 {
+        left: 75px;
+        bottom: -215px;
+    }
+    .consultation-pr .consul-pr-img2 {
+        bottom: -140px;
+        top: auto;
+        right: 85px;
+    }
+    .box-service .list-item-sv {
+        flex-wrap: wrap;
+        margin-top: 25px;
+    }
+    .box-service .list-item-sv .item{
+        width: 100%;
+    }
+    .container-flow .flow > ul > li {
+        position: relative;
+        margin-bottom: 80px;
+    }
+    .container-flow .flow > ul > li > span {
+        position: absolute;
+        bottom: 100%;
+        width: 95%;
+        height: 15px;
+    }
+    .container-flow .flow > ul > .flow-li::after {
+        left: 37%;
+    }
+    .container-flow .flow > ul > li .detail > h2 {
+        font-size: 14px;
+    }
+    .container-flow .flow > ul > li .detail #p1 {
+        flex-direction: column;
+        align-items: start;
+    }
+    .container-flow .flow > ul > li .detail #p1 .tel {
+        margin: 20px 15px;
+    }
+    .container-header .title-header {
+        width: 200px;
+    }
+    .content-program .title-pr, .content-service .title-sv {
+        width: 65%;
+    }
+    .consultation-pr > h1 {
+        font-size: 18px;
+        width: 65%;
+    }
+    .consultation-pr {
+        margin-top: 20px;
+    }
+    .content-service .title-sv > h1 {
+        height: 60px;
+    }
+    .access-content-1 {
+        height: 480px;
+    }
+    .bus-content .bus-list .list > h1, .container-train .train-list .list > h1 {
+        font-size: 15px;
+    }
+    .bus-content .bus-list .list > p, .container-train .train-list .list > p {
+        font-size: 13px;
+    }
+    .container-day .box-day .day > h1 {
+        font-size: 25px;
+        position: absolute;
+        top: 10px;
+        width: 92%;
+        text-align: center;
+    }
+    .container-day .box-day #box-day1 > ul > li > span, .container-day .box-day #box-day2 > ul > li > span {
+        padding: 8px 14px;
+        font-size: 15px;
+    }
+    .container-day .box-day #box-day1 {
+        padding: 55px 15px 15px 15px;
+    }
+}

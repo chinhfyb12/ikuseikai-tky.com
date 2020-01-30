@@ -1,0 +1,311 @@
+@media(max-width: 769px)
+{
+    /* ========HEADER======= */
+    header {
+        height: 60px;
+    }
+    .container-header .contact-header .contact1, .container-header .contact-header .phone span, .container-header .email {
+        display: none;
+    }
+    .list-menu {
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    .greeting .greeting-detail {
+        margin-top: 25px;
+    }
+    .container-header p {
+        left: 0;
+        font-size: 10px;
+        color: #6d6d6d;
+    }
+    .container-header .title-header {
+        margin-left: 10px;
+        width: 320px;
+        margin-top: 16px;
+    }
+    .contact-header .phone > img {
+        background: #ffedfa;
+        padding: 11px;
+        transform: translate(15px, 8px);
+    }
+    .greeting .greeting-detail .gr-contact {
+        width: 470px;
+        height: 60px;
+        margin: 0 15px;
+    }
+    .greeting .greeting-detail .gr-contact > span {
+        font-size: 28px;
+    }
+    .greeting .table {
+        width: 100%;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .greeting .table > h1 {
+        font-size: 20px;
+    }
+    .greeting .table .table-content {
+        width: 77%;
+        font-size: 13px;
+    }
+    .greeting .table .table-img {
+        width: 160px;
+        bottom: 0;
+    }
+    .top-menu-table {
+        width: 100%;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .top-menu-table .top-menu-table-1 {
+        width: 48%;
+        height: auto;
+    }
+    .top-menu-table .top-menu-table-1 > img {
+        width: 45px;
+        height: auto;
+    }
+    .top-menu-table .top-menu-table-1 > h1 {
+        font-size: 20px;
+        left: 90px;
+        height: auto;
+    }
+    .top-menu-table .top-menu-table-1 > div {
+        margin-left: 80px;
+        padding: 20px;
+        width: auto;
+        height: auto;
+    }
+    .list-link {
+        width: 100%;
+    }
+    .info .info-days {
+        width: 96%;
+    }
+    .info > h1, .container-flow .flow > h1, .container-link .list-link > h1, .container-day > h1, .service-month > h1, .bus-content > h1, .document > h1 {
+        font-size: 23px;
+    }
+    .info > h1::after, .container-flow .flow > h1::after, .container-link .list-link > h1::after, .container-day > h1::after, .service-month > h1::after, .bus-content > h1::after, .document > h1::after {
+        width: 50px;
+    }
+    .container-link .list-link .content-link {
+        font-size: 14px;
+        margin: 0 15px;
+        letter-spacing: -1px;
+        width: auto;
+    }
+    footer .footer-contact {
+        height: auto;
+        flex-direction: column;
+    }
+    footer .footer-contact #p-f {
+        flex-direction: row;
+    }
+    footer .footer-contact #p-f span {
+        margin: 0 4px;
+    }
+    footer .footer-contact > a {
+        margin: 15px 30px 15px 15px;
+    }
+    footer .footer-contact > a > span {
+        font-size: 28px;
+    }
+    footer .footer-contact > a > img {
+        width: 30px;
+    }
+    footer .footer-content {
+        height: 110px;
+    }
+    .footer-content img {
+        width: 180px;
+    }
+    footer .footer-content > p {
+        margin-top: 15px;
+    }
+    footer > ul {
+        display: none;
+    }
+    footer .copyright {
+        height: 30px;
+    }
+    .box-program .content-program > ul, .box-service .content-service > ul, .access-content-1 .content-1 > ul {
+        top: 12px;
+        left: 8px;
+    }
+    .box-program .content-program > ul > li > a, .box-service .content-service > ul > li > a, .access-content-1 .content-1 > ul > li > a {
+        font-size: 12px;
+    }
+    .content-program .title-pr > h1, .content-service .title-sv > h1 {
+        height: 60px;
+        font-size: 20px;
+    }
+    .content-program .title-pr > p {
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    .list-pr {
+        width: 100%;
+        margin: 0 15px;
+    }
+    .list-pr .list {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .list-pr .list > h1 {
+        font-size: 19px;
+    }
+    .list-pr .list-item .item {
+        width: 24%;
+    }
+    .consultation-pr {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .consultation-pr .consul-pr-img1 {
+        left: 15px;
+    }
+    .consultation-pr > h1 {
+        font-size: 19px;
+        width: 55%;
+    }
+    .consultation-pr > h2 {
+        font-size: 16px;
+    }
+    .consultation-pr .consul-pr-img2 {
+        right: 15px;
+    }
+    .list-pr .list > h1 > span {
+        padding: 6px 11px;
+    }
+    .container-link .list-link .links {
+        margin: 55px 0 50px 0;
+    }
+    .box-program .content-program, .box-service .content-service {
+        width: 100%;
+    }
+    .content-program .title-pr, .content-service .title-sv {
+        margin-top: 50px;
+    }
+    .box-service .list-item-sv {
+        width: 100%;
+        height: auto;
+    }
+    .box-service .list-item-sv .item {
+        width: 32%;
+        padding: 20px 15px 15px 15px;
+        height: auto;
+        margin: 10px;
+    }
+    .box-service .list-item-sv .item > span {
+        top: -17px;
+        padding: 4px 10px;
+        font-size: 20px;
+    }
+    .box-service .list-item-sv .item > h1 {
+        font-size: 16px;
+    }
+    .container-flow .flow > h1 {
+        font-size: 21px;
+    }
+    .info > h1, .container-flow .flow > h1, .container-link .list-link > h1, .container-day > h1, .service-month > h1, .bus-content > h1, .document > h1 {
+        width: 100%;
+        margin-top: 45px;
+    }
+    .container-flow #img-fl-1, .container-flow #img-fl-2 {
+        width: 200px;
+    }
+    .container-flow .flow > ul {
+        margin: 0 15px;
+    }
+    .container-flow .flow > ul > li .detail #p1 .tel {
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+    }
+    .container-flow .flow > ul > li .detail #p1 .email {
+        font-size: 17px;
+    }
+    .container-flow .flow {
+        width: 100%;
+        padding-bottom: 0;
+    }
+    .container-flow .flow > ul > li > span {
+        font-size: 17px;
+        padding: 8px;
+        width: auto;
+    }
+    .container-flow .flow > ul > li {
+        background: white;
+    }
+    .container-flow .flow > ul #discus {
+        display: none;
+    }
+    .container-document .document {
+        width: 100%;
+        padding: 50px 0;
+        margin: 80px 15px;
+    }
+    table {
+        width: 100%;
+    }
+    .container-day {
+        width: 100%;
+    }
+    .container-day .box-day {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .container-day .box-day .day {
+        width: 100%;
+        margin: 15px;
+    }
+    .access-content-1 .content-1 #img-acc-cont1 , .access-content-1 .content-1 #img-acc-cont2 {
+        position: unset;
+    }
+    .map {
+        margin: auto;
+    }
+    .service-month > div {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .access-content-1 .content-1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .access-content-1 .content-1 #img-acc-cont1 {
+        margin-top: 50px;
+    }
+    .access-content-1 .content-1 #img-acc-cont2 {
+        width: 200px;
+    }
+    .access-content-1 {
+        height: 625px;
+    }
+    .bus-content .bus-list {
+        justify-content: center;
+        width: 100%;
+    }
+    .bus-content .bus-list .list {
+        width: 100%;
+        margin: 16px 15px;
+    }
+    .container-train {
+        width: 100%;
+    }
+    .container-train .train-list .list {
+        width: 100%;
+        margin: 15px;
+    }
+    .map iframe {
+        width: 100%;
+        margin: 0 15px;
+    }
+}
